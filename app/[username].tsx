@@ -37,7 +37,7 @@ export default function ModalScreen() {
     <ScrollView style={styles.container}>
       <View style={styles.followersContainer}>
         {followers?.map((follower, index) => (
-          <Text id={`${follower.id}_${index}`} style={styles.title}>
+          <Text key={`${follower.id}_${index}`} style={styles.title}>
             &#x2022; {follower.login}
           </Text>
         ))}
