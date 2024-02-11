@@ -12,7 +12,7 @@ As Node.js officially states, "Production applications should only use Active LT
 For further instructions, check [Expo's installation page](https://docs.expo.dev/get-started/installation)
 
 ### Pseudo design
-![Screenshot 2024-02-08 at 9 26 38 PM](https://github.com/kei95/expo-backend-test/assets/44686790/902341fa-86e9-4d94-84e7-370e5a72a8b5)
+<img width="850" src="https://github.com/kei95/expo-backend-test/assets/44686790/902341fa-86e9-4d94-84e7-370e5a72a8b5">
 
 ### App demonstration
-![2024-02-10 21 01 45](https://github.com/kei95/github-follower-checker/assets/44686790/f285a0d1-a253-4527-9e42-cd3218b19596)
+<img width="350" src="https://github.com/kei95/github-follower-checker/assets/44686790/f285a0d1-a253-4527-9e42-cd3218b19596">
