@@ -1,8 +1,15 @@
 import { useState } from "react";
-import { Alert, Image, Pressable, StyleSheet, TextInput } from "react-native";
+import {
+  View,
+  Text,
+  Alert,
+  Image,
+  Pressable,
+  StyleSheet,
+  TextInput,
+} from "react-native";
 import { Link } from "expo-router";
 
-import { Text, View } from "@/components/Themed";
 import { Response, User } from "@/constants/type";
 
 async function getUser(userName: string): Promise<Response<User>> {
@@ -65,6 +72,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
+    backgroundColor: "#fff",
   },
   searchInput: {
     width: 150,

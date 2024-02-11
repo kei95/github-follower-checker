@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLocalSearchParams } from "expo-router";
-import { ScrollView, StyleSheet } from "react-native";
+import { Text, View, ScrollView, StyleSheet } from "react-native";
 
-import { Text, View } from "@/components/Themed";
 import { Response, User } from "@/constants/type";
 
 async function getFollowers(userName: string): Promise<Response<User[]>> {
